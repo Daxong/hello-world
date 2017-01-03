@@ -1,0 +1,515 @@
+2017-01-03 14:59:38,849 [DEBUG] Searching for key 'jdbc.passowrd' in [localProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,849
+2017-01-03 14:59:38,849 [DEBUG] Found key 'jdbc.passowrd' in [localProperties] with type [String] and value '' [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]2017-01-03 14:59:38,849
+2017-01-03 14:59:38,849 [DEBUG] Searching for key 'jdbc.driverClass' in [environmentProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,849
+2017-01-03 14:59:38,850 [DEBUG] Searching for key 'jdbc.driverClass' in [servletConfigInitParams] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,850
+2017-01-03 14:59:38,850 [DEBUG] Searching for key 'jdbc.driverClass' in [servletContextInitParams] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,850
+2017-01-03 14:59:38,851 [DEBUG] Searching for key 'jdbc.driverClass' in [jndiProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,851
+2017-01-03 14:59:38,851 [DEBUG] Looking up JNDI object with name [java:comp/env/jdbc.driverClass] [] [org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:150)]2017-01-03 14:59:38,851
+2017-01-03 14:59:38,852 [DEBUG] Converted JNDI name [java:comp/env/jdbc.driverClass] not found - trying original name [jdbc.driverClass]. javax.naming.NameNotFoundException: Name [jdbc.driverClass] is not bound in this Context. Unable to find [jdbc.driverClass]. [] [org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:101)]2017-01-03 14:59:38,852
+2017-01-03 14:59:38,852 [DEBUG] Looking up JNDI object with name [jdbc.driverClass] [] [org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:150)]2017-01-03 14:59:38,852
+2017-01-03 14:59:38,853 [DEBUG] JNDI lookup for name [jdbc.driverClass] threw NamingException with message: Name [jdbc.driverClass] is not bound in this Context. Unable to find [jdbc.driverClass].. Returning null. [] [org.springframework.jndi.JndiPropertySource.getProperty(JndiPropertySource.java:90)]2017-01-03 14:59:38,853
+2017-01-03 14:59:38,853 [DEBUG] Searching for key 'jdbc.driverClass' in [systemProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,853
+2017-01-03 14:59:38,853 [DEBUG] Searching for key 'jdbc.driverClass' in [systemEnvironment] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,853
+2017-01-03 14:59:38,854 [DEBUG] Could not find key 'jdbc.driverClass' in any property source. Returning [null] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:103)]2017-01-03 14:59:38,854
+2017-01-03 14:59:38,854 [DEBUG] Searching for key 'jdbc.driverClass' in [localProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,854
+2017-01-03 14:59:38,854 [DEBUG] Found key 'jdbc.driverClass' in [localProperties] with type [String] and value 'com.mysql.jdbc.Driver' [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]2017-01-03 14:59:38,854
+2017-01-03 14:59:38,856 [DEBUG] Searching for key 'jdbc.jdbcUrl' in [environmentProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,856
+2017-01-03 14:59:38,857 [DEBUG] Searching for key 'jdbc.jdbcUrl' in [servletConfigInitParams] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,857
+2017-01-03 14:59:38,857 [DEBUG] Searching for key 'jdbc.jdbcUrl' in [servletContextInitParams] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,857
+2017-01-03 14:59:38,857 [DEBUG] Searching for key 'jdbc.jdbcUrl' in [jndiProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,857
+2017-01-03 14:59:38,857 [DEBUG] Looking up JNDI object with name [java:comp/env/jdbc.jdbcUrl] [] [org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:150)]2017-01-03 14:59:38,857
+2017-01-03 14:59:38,858 [DEBUG] Converted JNDI name [java:comp/env/jdbc.jdbcUrl] not found - trying original name [jdbc.jdbcUrl]. javax.naming.NameNotFoundException: Name [jdbc.jdbcUrl] is not bound in this Context. Unable to find [jdbc.jdbcUrl]. [] [org.springframework.jndi.JndiLocatorSupport.lookup(JndiLocatorSupport.java:101)]2017-01-03 14:59:38,858
+2017-01-03 14:59:38,859 [DEBUG] Looking up JNDI object with name [jdbc.jdbcUrl] [] [org.springframework.jndi.JndiTemplate.lookup(JndiTemplate.java:150)]2017-01-03 14:59:38,859
+2017-01-03 14:59:38,859 [DEBUG] JNDI lookup for name [jdbc.jdbcUrl] threw NamingException with message: Name [jdbc.jdbcUrl] is not bound in this Context. Unable to find [jdbc.jdbcUrl].. Returning null. [] [org.springframework.jndi.JndiPropertySource.getProperty(JndiPropertySource.java:90)]2017-01-03 14:59:38,859
+2017-01-03 14:59:38,860 [DEBUG] Searching for key 'jdbc.jdbcUrl' in [systemProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,860
+2017-01-03 14:59:38,860 [DEBUG] Searching for key 'jdbc.jdbcUrl' in [systemEnvironment] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,860
+2017-01-03 14:59:38,860 [DEBUG] Could not find key 'jdbc.jdbcUrl' in any property source. Returning [null] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:103)]2017-01-03 14:59:38,860
+2017-01-03 14:59:38,860 [DEBUG] Searching for key 'jdbc.jdbcUrl' in [localProperties] [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:81)]2017-01-03 14:59:38,860
+2017-01-03 14:59:38,861 [DEBUG] Found key 'jdbc.jdbcUrl' in [localProperties] with type [String] and value 'jdbc:mysql://localhost:3306/butterfly?useUnicode=true&amp;characterEncoding=utf8&amp;allowMultiQueries=true&amp;autoReconnect=true' [] [org.springframework.core.env.PropertySourcesPropertyResolver.getProperty(PropertySourcesPropertyResolver.java:90)]2017-01-03 14:59:38,861
+2017-01-03 14:59:38,882 [DEBUG] Ignoring bean class loading failure for bean 'org.mybatis.spring.mapperScannerConfigurer#0' [] [org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:464)]2017-01-03 14:59:38,882
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:415)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.registerBeanPostProcessors(PostProcessorRegistrationDelegate.java:191)
+	at org.springframework.context.support.AbstractApplicationContext.registerBeanPostProcessors(AbstractApplicationContext.java:683)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:522)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 20 more
+2017-01-03 14:59:38,898 [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:38,898
+2017-01-03 14:59:38,898 [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:38,898
+2017-01-03 14:59:38,903 [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:38,903
+2017-01-03 14:59:38,904 [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:38,904
+2017-01-03 14:59:38,906 [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:38,906
+2017-01-03 14:59:38,906 [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:38,906
+2017-01-03 14:59:38,907 [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:38,907
+2017-01-03 14:59:38,908 [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:38,908
+2017-01-03 14:59:38,909 [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:38,909
+2017-01-03 14:59:38,909 [DEBUG] Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:38,909
+2017-01-03 14:59:38,913 [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:38,913
+2017-01-03 14:59:38,913 [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:38,913
+2017-01-03 14:59:38,914 [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:38,914
+2017-01-03 14:59:38,914 [DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:38,914
+2017-01-03 14:59:38,914 [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:38,914
+2017-01-03 14:59:38,915 [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:38,915
+2017-01-03 14:59:38,915 [DEBUG] Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:38,915
+2017-01-03 14:59:38,915 [DEBUG] Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:38,915
+2017-01-03 14:59:38,915 [DEBUG] Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:38,915
+2017-01-03 14:59:38,916 [DEBUG] Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:38,916
+2017-01-03 14:59:38,916 [DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:38,916
+2017-01-03 14:59:38,917 [DEBUG] Creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:38,917
+2017-01-03 14:59:38,965 [DEBUG] Eagerly caching bean 'org.springframework.aop.config.internalAutoProxyCreator' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:38,965
+2017-01-03 14:59:39,058 [DEBUG] Finished creating instance of bean 'org.springframework.aop.config.internalAutoProxyCreator' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:39,058
+2017-01-03 14:59:39,081 [DEBUG] Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@534bab8d] [] [org.springframework.context.support.AbstractApplicationContext.initMessageSource(AbstractApplicationContext.java:714)]2017-01-03 14:59:39,081
+2017-01-03 14:59:39,090 [DEBUG] Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@dbebce5] [] [org.springframework.context.support.AbstractApplicationContext.initApplicationEventMulticaster(AbstractApplicationContext.java:738)]2017-01-03 14:59:39,090
+2017-01-03 14:59:39,095 [DEBUG] Unable to locate ThemeSource with name 'themeSource': using default [org.springframework.ui.context.support.ResourceBundleThemeSource@58c9f911] [] [org.springframework.ui.context.support.UiApplicationContextUtils.initThemeSource(UiApplicationContextUtils.java:85)]2017-01-03 14:59:39,095
+2017-01-03 14:59:39,100 [DEBUG] Ignoring bean class loading failure for bean 'org.mybatis.spring.mapperScannerConfigurer#0' [] [org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:464)]2017-01-03 14:59:39,100
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:415)
+	at org.springframework.context.support.AbstractApplicationContext.getBeanNamesForType(AbstractApplicationContext.java:1150)
+	at org.springframework.context.support.AbstractApplicationContext.registerListeners(AbstractApplicationContext.java:795)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:534)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 20 more
+2017-01-03 14:59:39,113 [DEBUG] Ignoring bean class loading failure for bean 'org.mybatis.spring.mapperScannerConfigurer#0' [] [org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:464)]2017-01-03 14:59:39,113
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:415)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:823)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 19 more
+2017-01-03 14:59:39,117 [DEBUG] Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5588f1fa: defining beans [FindBaseInfoImp,activityController,CRM_UserController,demo2Controller,findController,findDSTableController,userBean,findBaseInfoImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapperScannerConfigurer#0,quartzJob,jobtask,doTime,startQuertz,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,txPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,txAdvice,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,activityMapper,appinfoMapper,commentMapper,deviceMapper,findTableMapper,offoronMapper,shareeventMapper,socialpaltformsettingMapper,usrMapper,willshareMapper]; root of factory hierarchy [] [org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:741)]2017-01-03 14:59:39,117
+2017-01-03 14:59:39,121 [DEBUG] Creating shared instance of singleton bean 'FindBaseInfoImp' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:39,121
+2017-01-03 14:59:39,124 [DEBUG] Creating instance of bean 'FindBaseInfoImp' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:39,124
+2017-01-03 14:59:39,125 [DEBUG] Ignoring bean class loading failure for bean 'org.mybatis.spring.mapperScannerConfigurer#0' [] [org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:464)]2017-01-03 14:59:39,125
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:415)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:73)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:243)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:988)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:959)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:472)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 32 more
+2017-01-03 14:59:39,137 [DEBUG] Creating shared instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:221)]2017-01-03 14:59:39,137
+2017-01-03 14:59:39,143 [DEBUG] Creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:39,143
+2017-01-03 14:59:39,152 [DEBUG] Eagerly caching bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:39,152
+2017-01-03 14:59:39,185 [DEBUG] Creating instance of bean 'txPointcut'   [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:448)]2017-01-03 14:59:39,185
+2017-01-03 14:59:39,211 [DEBUG] Finished creating instance of bean 'txPointcut' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:39,211
+2017-01-03 14:59:39,212 [DEBUG] Finished creating instance of bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:484)]2017-01-03 14:59:39,212
+2017-01-03 14:59:39,232 [DEBUG] Registered injected element on class [com.butterflymob.service.impl.FindBaseInfoImpl]: AutowiredFieldElement for private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find [] [org.springframework.beans.factory.annotation.InjectionMetadata.checkConfigMembers(InjectionMetadata.java:72)]2017-01-03 14:59:39,232
+2017-01-03 14:59:39,232 [DEBUG] Registered injected element on class [com.butterflymob.service.impl.FindBaseInfoImpl]: AutowiredFieldElement for private com.butterflymob.mapper.AppinfoMapper com.butterflymob.service.impl.FindBaseInfoImpl.appinfoMapper [] [org.springframework.beans.factory.annotation.InjectionMetadata.checkConfigMembers(InjectionMetadata.java:72)]2017-01-03 14:59:39,232
+2017-01-03 14:59:39,233 [DEBUG] Registered injected element on class [com.butterflymob.service.impl.FindBaseInfoImpl]: AutowiredFieldElement for private com.butterflymob.mapper.ShareeventMapper com.butterflymob.service.impl.FindBaseInfoImpl.shareMapper [] [org.springframework.beans.factory.annotation.InjectionMetadata.checkConfigMembers(InjectionMetadata.java:72)]2017-01-03 14:59:39,233
+2017-01-03 14:59:39,233 [DEBUG] Registered injected element on class [com.butterflymob.service.impl.FindBaseInfoImpl]: AutowiredFieldElement for private com.butterflymob.mapper.WillshareMapper com.butterflymob.service.impl.FindBaseInfoImpl.will [] [org.springframework.beans.factory.annotation.InjectionMetadata.checkConfigMembers(InjectionMetadata.java:72)]2017-01-03 14:59:39,233
+2017-01-03 14:59:39,233 [DEBUG] Registered injected element on class [com.butterflymob.service.impl.FindBaseInfoImpl]: AutowiredFieldElement for private com.butterflymob.mapper.UsrMapper com.butterflymob.service.impl.FindBaseInfoImpl.usr [] [org.springframework.beans.factory.annotation.InjectionMetadata.checkConfigMembers(InjectionMetadata.java:72)]2017-01-03 14:59:39,233
+2017-01-03 14:59:39,233 [DEBUG] Registered injected element on class [com.butterflymob.service.impl.FindBaseInfoImpl]: AutowiredFieldElement for com.butterflymob.mapper.DeviceMapper com.butterflymob.service.impl.FindBaseInfoImpl.deviceMapper [] [org.springframework.beans.factory.annotation.InjectionMetadata.checkConfigMembers(InjectionMetadata.java:72)]2017-01-03 14:59:39,233
+2017-01-03 14:59:39,233 [DEBUG] Eagerly caching bean 'FindBaseInfoImp' to allow for resolving potential circular references [] [org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:529)]2017-01-03 14:59:39,233
+2017-01-03 14:59:39,236 [DEBUG] Processing injected element of bean 'FindBaseInfoImp': AutowiredFieldElement for private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find [] [org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:86)]2017-01-03 14:59:39,236
+2017-01-03 14:59:39,258 [DEBUG] Returning cached instance of singleton bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' [] [org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:250)]2017-01-03 14:59:39,258
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/lib/slf4j-log4j12-1.7.13.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/lib/slf4j-log4j12-1.7.7.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/lib/slf4j-simple-1.6.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/lib/slf4j.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+2017-01-03 14:59:39,310 [DEBUG] Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter. [] [org.apache.ibatis.logging.LogFactory.setImplementation(LogFactory.java:128)]2017-01-03 14:59:39,310
+2017-01-03 14:59:39,316 [WARN] Exception encountered during context initialization - cancelling refresh attempt [] [org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:544)]2017-01-03 14:59:39,316
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'FindBaseInfoImp': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+Related cause: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:571)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:423)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:543)
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 34 more
+Related cause:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:415)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:73)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:243)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:988)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:959)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:472)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 32 more
+2017-01-03 14:59:39,319 [DEBUG] Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5588f1fa: defining beans [FindBaseInfoImp,activityController,CRM_UserController,demo2Controller,findController,findDSTableController,userBean,findBaseInfoImpl,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.event.internalEventListenerProcessor,org.springframework.context.event.internalEventListenerFactory,org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,dataSource,sqlSessionFactory,org.mybatis.spring.mapperScannerConfigurer#0,quartzJob,jobtask,doTime,startQuertz,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,org.springframework.aop.config.internalAutoProxyCreator,txPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,txAdvice,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,org.springframework.context.annotation.ConfigurationClassPostProcessor.enhancedConfigurationProcessor,activityMapper,appinfoMapper,commentMapper,deviceMapper,findTableMapper,offoronMapper,shareeventMapper,socialpaltformsettingMapper,usrMapper,willshareMapper]; root of factory hierarchy [] [org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:512)]2017-01-03 14:59:39,319
+2017-01-03 14:59:39,324 [ERROR] Context initialization failed            [] [org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:353)]2017-01-03 14:59:39,324
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'FindBaseInfoImp': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+Related cause: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:571)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:423)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:543)
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 34 more
+Related cause:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:415)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:73)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:243)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:988)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:959)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:472)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 32 more
+Jan 03, 2017 2:59:39 PM org.apache.catalina.core.StandardContext listenerStart
+SEVERE: Exception sending context initialized event to listener instance of class org.springframework.web.context.ContextLoaderListener
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'FindBaseInfoImp': Injection of autowired dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+Related cause: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:334)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1214)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:543)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.factory.BeanCreationException: Could not autowire field: private com.butterflymob.service.impl.FindBaseInfoImpl com.butterflymob.service.impl.FindBaseInfoImpl.find; nested exception is org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:571)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:88)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessPropertyValues(AutowiredAnnotationBeanPostProcessor.java:331)
+	... 22 more
+Caused by: org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:423)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:1177)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1014)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:543)
+	... 24 more
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 34 more
+Related cause:
+org.springframework.beans.factory.CannotLoadBeanClassException: Cannot find class [org.mybatis.spring.mapperScannerConfigurer] for bean with name 'org.mybatis.spring.mapperScannerConfigurer#0' defined in file [/Users/ilove/Documents/workspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/butterflymob/WEB-INF/classes/applicationContext.xml]; nested exception is java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1351)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineTargetType(AbstractAutowireCapableBeanFactory.java:628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.predictBeanType(AbstractAutowireCapableBeanFactory.java:597)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isFactoryBean(AbstractBeanFactory.java:1444)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:445)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:415)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:220)
+	at org.springframework.aop.framework.autoproxy.BeanFactoryAdvisorRetrievalHelper.findAdvisorBeans(BeanFactoryAdvisorRetrievalHelper.java:73)
+	at org.springframework.aop.framework.autoproxy.AbstractAdvisorAutoProxyCreator.findCandidateAdvisors(AbstractAdvisorAutoProxyCreator.java:101)
+	at org.springframework.aop.aspectj.autoproxy.AspectJAwareAdvisorAutoProxyCreator.shouldSkip(AspectJAwareAdvisorAutoProxyCreator.java:103)
+	at org.springframework.aop.framework.autoproxy.AbstractAutoProxyCreator.postProcessBeforeInstantiation(AbstractAutoProxyCreator.java:243)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.applyBeanPostProcessorsBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:988)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.resolveBeforeInstantiation(AbstractAutowireCapableBeanFactory.java:959)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:472)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:305)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:301)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:772)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:835)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:537)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:446)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:328)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:107)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4842)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5303)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:147)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1407)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1397)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.ClassNotFoundException: org.mybatis.spring.mapperScannerConfigurer
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1332)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1166)
+	at org.springframework.util.ClassUtils.forName(ClassUtils.java:250)
+	at org.springframework.beans.factory.support.AbstractBeanDefinition.resolveBeanClass(AbstractBeanDefinition.java:394)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doResolveBeanClass(AbstractBeanFactory.java:1396)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.resolveBeanClass(AbstractBeanFactory.java:1343)
+	... 32 more
+
+Jan 03, 2017 2:59:39 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: One or more listeners failed to start. Full details will be found in the appropriate container log file
+Jan 03, 2017 2:59:39 PM org.apache.catalina.core.StandardContext startInternal
+SEVERE: Context [/butterflymob] startup failed due to previous errors
+Jan 03, 2017 2:59:39 PM org.apache.catalina.core.ApplicationContext log
+INFO: Closing Spring root WebApplicationContext
+Jan 03, 2017 2:59:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-nio-8080"]
+Jan 03, 2017 2:59:39 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["ajp-nio-8009"]
+Jan 03, 2017 2:59:39 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 5693 ms
